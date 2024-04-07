@@ -20,3 +20,11 @@
     height:600px;
     border:2px solid #eaad62;
 }
+
+.link{
+  float:right
+  }
+
+  .botao {
+   float:inherit;
+  }
