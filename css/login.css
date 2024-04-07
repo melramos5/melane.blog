@@ -28,3 +28,19 @@
   .botao {
    float:inherit;
   }
+
+  .texto {
+    font-size: 20px;
+  }
+
+  .recuperar {
+    background-color: whitesmoke;
+    border-width: 30px;
+    margin: 30px auto; 
+    padding: 60px;
+    width:600px;
+    height:500px;
+    border:2px solid #eaad62;
+  }
+
+ 
