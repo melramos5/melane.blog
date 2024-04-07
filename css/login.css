@@ -1,0 +1,22 @@
+#fundo {
+    background: url(https://receitinhas.com.br/wp-content/uploads/2016/12/bruschetta-com-tomate-seco.png);
+    background-size: cover;
+  }
+
+  .navbar {
+  background-color: #eaad62;
+  }
+
+  .rodape {
+    background-color: #eaad62;
+  }
+
+ .login{
+  background-color: whitesmoke;
+    border-width: 30px;
+    margin: 30px auto; 
+    padding: 60px;
+    width:600px;
+    height:600px;
+    border:2px solid #eaad62;
+}
