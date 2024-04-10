@@ -1,7 +1,12 @@
-.navbar {
-    background-color: #eaad62;
+.navbar, .rodape {
+    background-color: #faead5;
     }
   
-    .rodape {
-      background-color: #eaad62;
-    }
+  .row {
+    margin: 15px auto;
+    padding: 20px;
+  }
+
+  .book {
+    float: right;
+  }

@@ -21,45 +21,309 @@
 
     <!-------------------------------- NAVBAR --------------------------------->
 
-
-   <!--- <nav class="navbar navbar-expand-lg" >
-        <div class="container" >
-            <a class="navbar-brand" href="#">
-                <img src="../img/melane.png" alt="" width="170" height="60">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-           
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="https://cdn-icons-png.flaticon.com/512/2730/2730349.png" alt="" width="70" height="60">
+      </a>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active fw-bolder text-danger" href="#">massas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active fw-bolder text-danger" href="#">carnes e frangos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active fw-bolder text-danger" href="#">sobremesas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active fw-bolder text-danger" href="#">lanches</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle fw-bolder text-danger" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                mais
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">petiscos</a></li>
+                <li><a class="dropdown-item" href="#">vegetariano</a></li>
+                <li><a class="dropdown-item" href="#">sem glútem</a></li>
+              </ul>
+            </li>
+          </ul>
         </div>
+      
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Pesquisar receita" aria-label="Search">
+              <button class="btn btn-outline-danger" type="submit">Pesquisar</button>
+            </form>
+         
+      </div>
     </nav>
-    <br> <br> -->
 
-
-    <ul class="navbar justify-content-end">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Active</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-
-
+ <br> <br> 
 
   
 
     <!----------------------- CONTEUDO------------------------------------------------->
 
    
-   
+    <!-- <div class="row row-cols-1 row-cols-md-5 g-2">
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://www.sabornamesa.com.br/media/k2/items/cache/07758ee08f7e16a0b15b0d98a56d204a_XL.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">carne assada</h5>
+            <p class="card-text"></p>
+            <p class="card-text"><small class="text-muted"><i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i></small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://www.sabornamesa.com.br/media/k2/items/cache/07758ee08f7e16a0b15b0d98a56d204a_XL.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">filé de frango</h5>
+            <p class="card-text"></p>
+            <p class="card-text"><small class="text-muted"><i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i></small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://www.sabornamesa.com.br/media/k2/items/cache/07758ee08f7e16a0b15b0d98a56d204a_XL.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">hamburguer caseiro</h5>
+            <p class="card-text"></p>
+            <p class="card-text"><small class="text-muted"><i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i></small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://www.sabornamesa.com.br/media/k2/items/cache/07758ee08f7e16a0b15b0d98a56d204a_XL.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">moqueca de camarão</h5>
+            <p class="card-text"></p>
+            <p class="card-text"><small class="text-muted"><i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i></small></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://www.sabornamesa.com.br/media/k2/items/cache/07758ee08f7e16a0b15b0d98a56d204a_XL.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">frango à milanesa</h5>
+            <p class="card-text"></p>
+            <p class="card-text"><small class="text-muted"><i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i></small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://www.sabornamesa.com.br/media/k2/items/cache/07758ee08f7e16a0b15b0d98a56d204a_XL.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">palha italiana</h5>
+            <p class="card-text"></p>
+            <p class="card-text"><small class="text-muted"><i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i></small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://www.sabornamesa.com.br/media/k2/items/cache/07758ee08f7e16a0b15b0d98a56d204a_XL.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">gurjão de frango</h5>
+            <p class="card-text"></p>
+            <p class="card-text"><small class="text-muted"><i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i></small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://www.sabornamesa.com.br/media/k2/items/cache/07758ee08f7e16a0b15b0d98a56d204a_XL.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">bolinho de pizza</h5>
+            <p class="card-text"></p>
+            <p class="card-text"><small class="text-muted"><i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i></small>
+              <i class="bi bi-bookmark-plus"></i></p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://www.sabornamesa.com.br/media/k2/items/cache/07758ee08f7e16a0b15b0d98a56d204a_XL.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">enroladinho de salsicha</h5>
+            <p class="card-text"></p>
+            <p class="card-text"><small class="text-muted"><i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i></small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://www.sabornamesa.com.br/media/k2/items/cache/07758ee08f7e16a0b15b0d98a56d204a_XL.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">chocolate quente</h5>
+            <p class="card-text"></p>
+            <p class="card-text"><small class="text-muted"><i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i></small></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+      -->
+
+      <section class="cartao">
+        <div class="container p-3">
+          <div class="row ">
+            <div class="col-12">
+                <h1 class="fw-bold mt-5 text-center">Receitas populares</h1>
+            </div>
+        </div>
+            <div class="row p-3">
+                <div class="col-md-3 p-3 mt-3">
+                    <img src="https://www.sabornamesa.com.br/media/k2/items/cache/07758ee08f7e16a0b15b0d98a56d204a_XL.jpg" class="img-fluid" alt="" width="300" height="100">
+                    <div class="mt-2">
+                        <h3 class="fs-5">petit gateau <i class="book bi bi-bookmark-plus"></i></h3>
+                        <p class="fw-light"></p>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                    </div>
+                </div>
+                <div class="col-md-3 p-3 mt-3">
+                  <img src="https://www.sabornamesa.com.br/media/k2/items/cache/07758ee08f7e16a0b15b0d98a56d204a_XL.jpg" class="img-fluid" alt="" width="300" height="100">
+                  <div class="mt-2">
+                      <h3 class="fs-5">gurjao de frango <i class="book bi bi-bookmark-plus"></i></h3>
+                      <p class="fw-light"></p>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                  </div>
+              </div>
+                <div class="col-md-3 p-3 mt-3">
+                    <img src="https://www.sabornamesa.com.br/media/k2/items/cache/07758ee08f7e16a0b15b0d98a56d204a_XL.jpg" class="img-fluid" alt="" width="300" height="100">
+                    <div class="mt-2">
+                        <h3 class="fs-5">filé de frango <i class="book bi bi-bookmark-plus"></i></h3>
+                        <p class="fw-light"></p>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                    </div>
+                </div>
+                <div class="col-md-3 p-3 mt-3">
+                    <img src="https://www.sabornamesa.com.br/media/k2/items/cache/07758ee08f7e16a0b15b0d98a56d204a_XL.jpg" class="img-fluid" alt="" width="300" height="100">
+                    <div class="mt-2">
+                        <h3 class="fs-5">palha italiana <i class="book bi bi-bookmark-plus"></i></h3> 
+                        <p class="fw-light"></p>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                    </div>
+                </div>
+
+                <div class="col-md-3 p-3 mt-3">
+                  <img src="https://www.sabornamesa.com.br/media/k2/items/cache/07758ee08f7e16a0b15b0d98a56d204a_XL.jpg" class="img-fluid" alt="" width="300" height="100">
+                  <div class="mt-2">
+                      <h3 class="fs-5">cookie <i class="book bi bi-bookmark-plus"></i></h3>
+                      <p class="fw-light"></p>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                  </div>
+              </div>
+              <div class="col-md-3 p-3 mt-3">
+                <img src="https://www.sabornamesa.com.br/media/k2/items/cache/07758ee08f7e16a0b15b0d98a56d204a_XL.jpg" class="img-fluid" alt="" width="300" height="100">
+                <div class="mt-2">
+                    <h3 class="fs-5">chocolate quente <i class="book bi bi-bookmark-plus"></i></h3>
+                    <p class="fw-light"></p>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                </div>
+            </div>
+              <div class="col-md-3 p-3 mt-3">
+                  <img src="https://www.sabornamesa.com.br/media/k2/items/cache/07758ee08f7e16a0b15b0d98a56d204a_XL.jpg" class="img-fluid" alt="" width="300" height="100">
+                  <div class="mt-2">
+                      <h3 class="fs-5">enroladinho de salsicha <i class="book bi bi-bookmark-plus"></i></h3>
+                      <p class="fw-light"></p>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                  </div>
+              </div>
+              <div class="col-md-3 p-3 mt-3">
+                  <img src="https://www.sabornamesa.com.br/media/k2/items/cache/07758ee08f7e16a0b15b0d98a56d204a_XL.jpg" class="img-fluid" alt="" width="300" height="100">
+                  <div class="mt-2">
+                      <h3 class="fs-5">paleta mexicana <i class="book bi bi-bookmark-plus"></i></h3> 
+                      <p class="fw-light"></p>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                  </div>
+              </div>
+
+              </div>
+        </div>
+    </section>
 
 
 
@@ -71,19 +335,19 @@
             <div class="row p-4">
               <div class="col-md-3 mt-3">
                 <a class="navbar-brand" href="#">
-                    <img src="../img/melane.png" alt="" width="150" height="60">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2730/2730349.png" alt="" width="70" height="60">
                 </a>
                 <p></p>
               </div>
               <div class="col-md-3 mt-4">
-                <h3 class="fs-6">Quem somos</h3>
-                <h3 class="fs-6">Privacidade</h3>
-                <h3 class="fs-6">Termos de uso</h3>
+                <h3 class="fs-6 text-danger">Quem somos</h3>
+                <h3 class="fs-6 text-danger">Privacidade</h3>
+                <h3 class="fs-6 text-danger">Termos de uso</h3>
               </div>
 
 
               <div class="col-md-4 mt-3">
-                <h3 class="fs-6 ms-3">REDES SOCIAIS</h3>
+                <h3 class="fs-6 ms-3 text-danger">REDES SOCIAIS</h3>
                 <ul class="nav">
                     <li class="nav-item">
                       <a class="nav-link text-primary fs-3" aria-current="page" href="#"><i class="bi bi-facebook"></i></a>
