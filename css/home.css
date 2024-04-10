@@ -2,11 +2,13 @@
     background-color: #faead5;
     }
   
-  .row {
-    margin: 15px auto;
-    padding: 20px;
-  }
-
   .book {
     float: right;
+  } 
+
+  .carousel {
+    margin: 40px;
+    margin-top: 10px;
   }
+
+  

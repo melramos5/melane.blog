@@ -3,13 +3,9 @@
     background-size: cover;
   }
 
-  .navbar {
-  background-color: #eaad62;
-  }
-
-  .rodape {
-    background-color: #eaad62;
-  }
+  .navbar, .rodape {
+    background-color: whitesmoke;
+    }
 
  .login{
   background-color: whitesmoke;
@@ -50,7 +46,7 @@
   margin: 30px auto; 
   padding: 60px;
   width:650px;
-  height:800px;
+  height:750px;
   border:2px solid #eaad62;
 } 
 
